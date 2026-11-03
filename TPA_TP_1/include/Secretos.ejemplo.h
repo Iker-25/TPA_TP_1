@@ -1,0 +1,7 @@
+#pragma once
+
+#define WIFI_SSID "Wokwi-GUEST"
+#define WIFI_PASS ""
+#define TOKEN_BOT "COMPLETAR_LOCALMENTE"
+#define ID_CANAL 0UL
+#define CLAVE_ESCRITURA "COMPLETAR_LOCALMENTE"
