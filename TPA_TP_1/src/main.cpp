@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <Secretos.h>
-#include <Secretos.ejemplo.h>
 #include <Sensores.h>
 #include <Luces.h>
 #include <Pantalla.h>
