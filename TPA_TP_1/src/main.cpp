@@ -18,9 +18,7 @@ void setup() {
   Serial.begin(115200);
   sensores.iniciar();
   luces.iniciar();
-  luces.activarAuto(0.8f); // Prueba existente del integrante 3.
   pantalla.iniciar();
-  pantalla.seleccionar(Vista::Dht);
   wifi.iniciar(WIFI_SSID, WIFI_PASS);
   nube.iniciar(AIO_USUARIO, AIO_CLAVE, AIO_GRUPO,
                AIO_FEED_TEMPERATURA, AIO_FEED_HUMEDAD);
